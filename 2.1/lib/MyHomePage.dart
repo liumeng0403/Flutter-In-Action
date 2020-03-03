@@ -1,4 +1,5 @@
 import 'package:firstflutterapp/NewRoute.dart';
+import 'package:firstflutterapp/RandomWordsWidget.dart';
 import 'package:firstflutterapp/RouterTestRoute.dart';
 import 'package:flutter/material.dart';
 
@@ -63,6 +64,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 ));
               },
             ),
+            // 随机字符串
+            RandomWordsWidget(),
           ],
         ),
       ),
