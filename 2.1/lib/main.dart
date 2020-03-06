@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:firstflutterapp/EchoRoute.dart';
 import 'package:firstflutterapp/NewRoute.dart';
 import 'package:firstflutterapp/TipRoute.dart';
@@ -5,7 +7,34 @@ import 'package:flutter/material.dart';
 
 import 'package:firstflutterapp/MyHomePage.dart';
 
-void main() => runApp(MyApp());
+void main(){
+  FlutterError.onError = (FlutterErrorDetails details){
+    reportErrorAndLog(details);
+  };
+  runZoned(()=>runApp(MyApp()),
+    zoneSpecification: ZoneSpecification(
+      print: (Zone self, ZoneDelegate parent, Zone zone, String line){
+        collectLog(line);
+      },
+    ),
+    onError: (Object obj, StackTrace stack){
+      var details = makeDetails(obj, stack);
+      reportErrorAndLog(details);
+    }
+  );
+}
+
+void collectLog(String line){
+  //收集日志
+}
+
+void reportErrorAndLog(FlutterErrorDetails details){
+  //上报错误和日志逻辑
+}
+
+FlutterErrorDetails makeDetails(Object obj,StackTrace stack){
+  // 构建错误信息
+}
 
 class MyApp extends StatelessWidget {
   @override
