@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:firstflutterapp/ContextRoute.dart';
 import 'package:firstflutterapp/EchoRoute.dart';
 import 'package:firstflutterapp/NewRoute.dart';
 import 'package:firstflutterapp/TipRoute.dart';
@@ -50,6 +51,7 @@ class MyApp extends StatelessWidget {
         "new_page": (context) => NewRoute(),
         "new_page_with_args": (context) => EchoRoute(),
         "tip":(context)=>TipRoute(text: ModalRoute.of(context).settings.arguments),
+        "stateless_context_text":(context)=>ContextRoute(),
         "/": (context) => MyHomePage(title: 'My Home Page'), // //注册首页路由
       },
     );

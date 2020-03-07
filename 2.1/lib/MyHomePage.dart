@@ -1,3 +1,4 @@
+import 'package:firstflutterapp/Echo.dart';
 import 'package:firstflutterapp/NewRoute.dart';
 import 'package:firstflutterapp/RandomWordsWidget.dart';
 import 'package:firstflutterapp/RouterTestRoute.dart';
@@ -53,6 +54,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.pushNamed(context,"new_page");
               },
             ),
+            FlatButton(
+              child: Text("open contxt test"),
+              textColor: Colors.black,
+              onPressed: (){
+                Navigator.pushNamed(context, "stateless_context_text");
+              },
+            ),
             RaisedButton(
               child: Text("页面传值"),
               textColor: Colors.blue,
@@ -66,6 +74,17 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             // 随机字符串
             RandomWordsWidget(),
+            RaisedButton(
+              child: Text("widget 简介"),
+              textColor: Colors.black,
+              onPressed: (){
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (context){
+                    return Echo(text: "hello lm");
+                  },
+                ));
+              },
+            ),
           ],
         ),
       ),
