@@ -1,6 +1,6 @@
 // xx
 /// yyy   三个 / 注释 可以方法提示
-void main(){
+void main01(){
   print("你好 dart");
 
   var str = "你好 2";
