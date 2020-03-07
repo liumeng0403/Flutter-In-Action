@@ -85,6 +85,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 ));
               },
             ),
+            RaisedButton(
+              child: Text("state 生命周期"),
+              textColor: Colors.blue,
+              onPressed: (){
+                Navigator.pushNamed(context, "state_life_cycle");
+              },
+            ),
           ],
         ),
       ),

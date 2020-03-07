@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:firstflutterapp/ContextRoute.dart';
+import 'package:firstflutterapp/CounterWidget.dart';
 import 'package:firstflutterapp/EchoRoute.dart';
 import 'package:firstflutterapp/NewRoute.dart';
 import 'package:firstflutterapp/TipRoute.dart';
@@ -8,25 +9,27 @@ import 'package:flutter/material.dart';
 
 import 'package:firstflutterapp/MyHomePage.dart';
 
-void main(){
-  FlutterError.onError = (FlutterErrorDetails details){
-    reportErrorAndLog(details);
-  };
-  runZoned(()=>runApp(MyApp()),
-    zoneSpecification: ZoneSpecification(
-      print: (Zone self, ZoneDelegate parent, Zone zone, String line){
-        collectLog(line);
-      },
-    ),
-    onError: (Object obj, StackTrace stack){
-      var details = makeDetails(obj, stack);
-      reportErrorAndLog(details);
-    }
-  );
-}
+void main() => runApp(MyApp());
+
+//void main(){  //  有问题
+//  FlutterError.onError = (FlutterErrorDetails details){
+//    reportErrorAndLog(details);
+//  };
+//  runZoned(()=>runApp(MyApp()),
+//    zoneSpecification: ZoneSpecification(
+//      print: (Zone self, ZoneDelegate parent, Zone zone, String line){
+//        collectLog(line);
+//      },
+//    ),
+//    onError: (Object obj, StackTrace stack){
+//      var details = makeDetails(obj, stack);
+//      reportErrorAndLog(details);
+//    }
+//  );
+//}
 
 void collectLog(String line){
-  //收集日志
+   // print(line);
 }
 
 void reportErrorAndLog(FlutterErrorDetails details){
@@ -52,6 +55,7 @@ class MyApp extends StatelessWidget {
         "new_page_with_args": (context) => EchoRoute(),
         "tip":(context)=>TipRoute(text: ModalRoute.of(context).settings.arguments),
         "stateless_context_text":(context)=>ContextRoute(),
+        "state_life_cycle":(context)=>CounterWidget(),
         "/": (context) => MyHomePage(title: 'My Home Page'), // //注册首页路由
       },
     );
