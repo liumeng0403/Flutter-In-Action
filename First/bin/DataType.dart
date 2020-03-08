@@ -1,4 +1,4 @@
-void main() {
+void main02() {
   // String
 
   var str1 = 'str1';
