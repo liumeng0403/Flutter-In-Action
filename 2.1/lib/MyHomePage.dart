@@ -92,6 +92,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.pushNamed(context, "state_life_cycle");
               },
             ),
+            RaisedButton(
+              child: Text("获取 state"),
+              textColor: Colors.blue,
+              onPressed: ()=> Navigator.pushNamed(context, "get_state"),
+            ),
           ],
         ),
       ),
