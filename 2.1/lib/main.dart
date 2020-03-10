@@ -5,6 +5,7 @@ import 'package:firstflutterapp/CounterWidget.dart';
 import 'package:firstflutterapp/EchoRoute.dart';
 import 'package:firstflutterapp/GetState.dart';
 import 'package:firstflutterapp/NewRoute.dart';
+import 'package:firstflutterapp/TapBoxA.dart';
 import 'package:firstflutterapp/TipRoute.dart';
 import 'package:flutter/material.dart';
 
@@ -58,6 +59,7 @@ class MyApp extends StatelessWidget {
         "stateless_context_text":(context)=>ContextRoute(),
         "state_life_cycle":(context)=>CounterWidget(),
         "get_state":(context)=>GetState(),
+        "self_state":(context)=>TapBoxA(),
         "/": (context) => MyHomePage(title: 'My Home Page'), // //注册首页路由
       },
     );
