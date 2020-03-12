@@ -107,6 +107,11 @@ class _MyHomePageState extends State<MyHomePage> {
               textColor: Colors.blue,
               onPressed: () => Navigator.pushNamed(context, "parent_state"),
             ),
+            RaisedButton(
+              child: Text("both state"),
+              textColor: Colors.blue,
+              onPressed: () => Navigator.pushNamed(context, "both_state"),
+            ),
           ],
         ),
       ),
