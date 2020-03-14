@@ -1,4 +1,4 @@
-void main() {
+void main06() {
   //
   List myList = ["香蕉", "苹果", "西瓜"];
 
