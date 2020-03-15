@@ -6,4 +6,8 @@ void main(){
   set.add("香蕉");
   print(set);
   print(set.toList());
+
+  set.forEach((item){
+    print(item);
+  });
 }

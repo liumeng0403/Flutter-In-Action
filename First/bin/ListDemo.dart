@@ -1,6 +1,23 @@
-void main06() {
+void main() {
   //
   List myList = ["香蕉", "苹果", "西瓜"];
+
+  for(var i=0;i<myList.length;i++){
+    print(myList[i]);
+  }
+
+  for(var item in myList){
+    print(item);
+  }
+
+  myList.forEach((item){
+    print(item);
+  });
+
+  var newMyList = myList.map((item){
+    return item*2;
+  }).toList();
+  print(newMyList);
 
   print(myList[1]);
   print(myList.length);
@@ -45,4 +62,11 @@ void main06() {
   print(list);
 
   //
+  var numList = [1,2,3,4,5,6,7,8,9];
+  var numList2 = numList.where((item)=>item>5).toList();
+  print(numList2);
+
+  print(numList.any((item)=> item>5));
+  print(numList.every((item)=>item>5));
+
 }

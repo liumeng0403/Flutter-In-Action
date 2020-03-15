@@ -24,4 +24,8 @@ void main() {
   m["name"] = "李四";
   m["age"] = 30;
   print(m);
+
+  m.forEach((key,value){
+    print("$key -- $value");
+  });
 }
