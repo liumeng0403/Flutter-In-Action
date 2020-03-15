@@ -28,20 +28,16 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:$_counter',
-            ),
             RaisedButton(
               onPressed: ()=>Navigator.pushNamed(context, "text"),
               child: Text("文本,字体,字体样式"),
             ),
+            RaisedButton(
+              onPressed: ()=>Navigator.pushNamed(context, "button"),
+              child: Text("按钮 示例"),
+            )
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }

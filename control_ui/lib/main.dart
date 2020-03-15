@@ -1,3 +1,4 @@
+import 'package:controlui/ButtonDemo.dart';
 import 'package:controlui/TextDemo.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(title: 'Flutter Demo Home Page'),
       routes: {
         "text":(context)=>TextDemo(),
+        "button":(context)=>ButtonDemo(),
       },
     );
   }
