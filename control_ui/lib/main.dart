@@ -1,4 +1,5 @@
 import 'package:controlui/ButtonDemo.dart';
+import 'package:controlui/ImageDemo.dart';
 import 'package:controlui/TextDemo.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "text":(context)=>TextDemo(),
         "button":(context)=>ButtonDemo(),
+        "image":(context)=>ImageDemo(),
       },
     );
   }
