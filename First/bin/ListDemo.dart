@@ -14,6 +14,13 @@ void main() {
     print(item);
   });
 
+  print(">>>>>>>>>>>>>>>>>>>");
+  myList.forEach((item)=>print(item));
+  myList.forEach((item)=>{  // => lambda 表达式 只能写一行代码
+    print(item *2 )
+  });
+  print("<<<<<<<<<<<<<<<<<<<");
+
   var newMyList = myList.map((item){
     return item*2;
   }).toList();
@@ -65,6 +72,17 @@ void main() {
   var numList = [1,2,3,4,5,6,7,8,9];
   var numList2 = numList.where((item)=>item>5).toList();
   print(numList2);
+
+  print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+  var numList3 = List();
+  numList3 = numList.map((item){  // (){}  lambda  可以写多行代码
+    if(item>3){
+      return item*2;
+    }
+    return item;
+  }).toList();
+  print(numList3);
+  print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 
   print(numList.any((item)=> item>5));
   print(numList.every((item)=>item>5));

@@ -90,4 +90,30 @@ void main(){
   fn();
 
 
+  ((){
+    print("我是自执行方法!");
+  })();
+
+
+  int fnm(int n){    //   递归
+    print(n);
+    if(n == 1){
+      return n;
+    }
+    return n * fnm(n-1);
+  }
+  print(fnm(5));
+
+  fnx(){
+    var a;   // 闭包  常驻内存 且  不污染全局
+    return (){
+      a=5;
+      a++;
+      print(a);
+    };
+  }
+  var m = fnx();
+  m();
+  m();
+  m();
 }
