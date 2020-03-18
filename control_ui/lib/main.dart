@@ -1,9 +1,9 @@
 import 'package:controlui/ButtonDemo.dart';
 import 'package:controlui/ImageDemo.dart';
+import 'package:controlui/MyHomePage.dart';
+import 'package:controlui/SwitchAndCheckBoxTestRoute.dart';
 import 'package:controlui/TextDemo.dart';
 import 'package:flutter/material.dart';
-
-import 'MyHomePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         "text":(context)=>TextDemo(),
         "button":(context)=>ButtonDemo(),
         "image":(context)=>ImageDemo(),
+        "switch_checkbox":(context)=>SwitchAndCheckBoxTestRoute(),
       },
     );
   }

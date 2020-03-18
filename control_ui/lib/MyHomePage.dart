@@ -41,6 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: ()=>Navigator.pushNamed(context, "image"),
               child: Text("图片 示例"),
             ),
+            RaisedButton(
+              onPressed: ()=>Navigator.pushNamed(context, "switch_checkbox"),
+              child: Text("单选 复选 示例"),
+            ),
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
