@@ -16,8 +16,41 @@ void main(){
   var p3 = Person.sepcify("王五", 20);
   p3.getInfo();
 
+
+  print(PersonStatic.name);
+  PersonStatic.getInfo();
+
+  var p4=PersonStatic();
+  p4.getInfo2();
+
+
+  //  类 对象 操作符
+
+  Person p5;
+  p5?.getInfo(); // 条件运算符 ?  当 p5 为 null 的时候, 就不会调用 后面的方法
+
+  var p6=Person();
+  p6.getInfo();
+
+  p6..name="张三22"  //  连缀 操作符 ..  简化赋值调用
+    ..age=33
+    ..getInfo();
+
+
 }
 
+
+class PersonStatic {
+  static String name = "赵六";
+  int age=20;
+
+  static void getInfo() {
+    print("${name}");
+  }
+  void getInfo2(){
+    print("$name -- ${this.age}");
+  }
+}
 
 
 
