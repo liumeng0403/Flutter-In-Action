@@ -1,5 +1,6 @@
 import 'package:controlui/ButtonDemo.dart';
 import 'package:controlui/FocusTestRoute.dart';
+import 'package:controlui/FormTestRoute.dart';
 import 'package:controlui/ImageDemo.dart';
 import 'package:controlui/MyHomePage.dart';
 import 'package:controlui/SwitchAndCheckBoxTestRoute.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         "switch_checkbox":(context)=>SwitchAndCheckBoxTestRoute(),
         "text_form":(context)=>TextFieldDemo(),
         "focus":(context)=>FocusTestRoute(),
+        "login":(context)=>FormTestRoute(),
       },
     );
   }
