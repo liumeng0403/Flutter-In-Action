@@ -57,6 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: ()=>Navigator.pushNamed(context, "login"),
               child: Text("登录 示例"),
             ),
+            RaisedButton(
+              onPressed: ()=>Navigator.pushNamed(context, "progress"),
+              child: Text("进度条 示例"),
+            ),
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.

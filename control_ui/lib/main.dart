@@ -3,6 +3,7 @@ import 'package:controlui/FocusTestRoute.dart';
 import 'package:controlui/FormTestRoute.dart';
 import 'package:controlui/ImageDemo.dart';
 import 'package:controlui/MyHomePage.dart';
+import 'package:controlui/ProgressDemo.dart';
 import 'package:controlui/SwitchAndCheckBoxTestRoute.dart';
 import 'package:controlui/TextDemo.dart';
 import 'package:controlui/TextFieldDemo.dart';
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
         "text_form":(context)=>TextFieldDemo(),
         "focus":(context)=>FocusTestRoute(),
         "login":(context)=>FormTestRoute(),
+        "progress":(context)=>ProgressDemo(),
       },
     );
   }
