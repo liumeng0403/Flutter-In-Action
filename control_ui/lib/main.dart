@@ -1,12 +1,15 @@
-import 'package:controlui/ButtonDemo.dart';
-import 'package:controlui/FocusTestRoute.dart';
-import 'package:controlui/FormTestRoute.dart';
-import 'package:controlui/ImageDemo.dart';
+import 'package:controlui/BasicDemo.dart';
+import 'package:controlui/basic/ButtonDemo.dart';
+import 'package:controlui/basic/FocusTestRoute.dart';
+import 'package:controlui/basic/FormTestRoute.dart';
+import 'package:controlui/basic/ImageDemo.dart';
+import 'package:controlui/LayoutDemo.dart';
 import 'package:controlui/MyHomePage.dart';
-import 'package:controlui/ProgressDemo.dart';
-import 'package:controlui/SwitchAndCheckBoxTestRoute.dart';
-import 'package:controlui/TextDemo.dart';
-import 'package:controlui/TextFieldDemo.dart';
+import 'package:controlui/basic/ProgressDemo.dart';
+import 'package:controlui/layout/RowColumnDemo.dart';
+import 'package:controlui/basic/SwitchAndCheckBoxTestRoute.dart';
+import 'package:controlui/basic/TextDemo.dart';
+import 'package:controlui/basic/TextFieldDemo.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -21,6 +24,9 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
       routes: {
+
+        //
+        "basic":(context)=>BasicDemo(),
         "text":(context)=>TextDemo(),
         "button":(context)=>ButtonDemo(),
         "image":(context)=>ImageDemo(),
@@ -29,6 +35,10 @@ class MyApp extends StatelessWidget {
         "focus":(context)=>FocusTestRoute(),
         "login":(context)=>FormTestRoute(),
         "progress":(context)=>ProgressDemo(),
+
+        //
+        "layout":(context)=>LayoutDemo(),
+        "row_column":(context)=>RowColumnDemo(),
       },
     );
   }
