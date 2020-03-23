@@ -48,6 +48,14 @@ class RowColumnDemo extends StatelessWidget {
               Text(" I am Jack "),
             ],
           ),
+          //
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Text("hi"),
+              Text("world"),
+            ],
+          ),
         ],
       ),
     );
