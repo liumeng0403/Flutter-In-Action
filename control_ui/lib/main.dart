@@ -6,6 +6,7 @@ import 'package:controlui/basic/ImageDemo.dart';
 import 'package:controlui/LayoutDemo.dart';
 import 'package:controlui/MyHomePage.dart';
 import 'package:controlui/basic/ProgressDemo.dart';
+import 'package:controlui/layout/FlexExpandedDemo.dart';
 import 'package:controlui/layout/RowColumnDemo.dart';
 import 'package:controlui/basic/SwitchAndCheckBoxTestRoute.dart';
 import 'package:controlui/basic/TextDemo.dart';
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
         //
         "layout":(context)=>LayoutDemo(),
         "row_column":(context)=>RowColumnDemo(),
+        "flex":(context)=>FlexExpandedDemo(),
       },
     );
   }
