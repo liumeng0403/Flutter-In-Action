@@ -11,11 +11,17 @@ public class Meal {
 
     private MealBuilder mealBuilder;
 
+    public Meal(){
+    }
+
     public Meal(MealBuilder mealBuilder){
         this.mealBuilder = mealBuilder;
     }
 
-    public MealBuilder getMealBuilder(){
+    public MealBuilder getBuilder(){
+        if(this.mealBuilder == null){
+            return MealBuilder.getBuilder();
+        }
         return this.mealBuilder;
     }
 

@@ -24,19 +24,19 @@ public class MealBuilder {
 
     public MealBuilder addCoke(Coke coke){
         this.meal.addItem(coke);
-        return this.meal.getMealBuilder();
+        return this.meal.getBuilder();
     }
     public MealBuilder addPepsi(Pepsi pepsi){
         this.meal.addItem(pepsi);
-        return this.meal.getMealBuilder();
+        return this.meal.getBuilder();
     }
     public MealBuilder addVegBurger(VegBurger vegBurger){
         this.meal.addItem(vegBurger);
-        return this.meal.getMealBuilder();
+        return this.meal.getBuilder();
     }
     public MealBuilder addChickenBurger(ChickenBurger chickenBurger){
         this.meal.addItem(chickenBurger);
-        return this.meal.getMealBuilder();
+        return this.meal.getBuilder();
     }
 
 }
