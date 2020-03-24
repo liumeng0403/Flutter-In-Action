@@ -25,25 +25,22 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
       routes: {
+        //
+        "basic": (context) => BasicDemo(),
+        "text": (context) => TextDemo(),
+        "button": (context) => ButtonDemo(),
+        "image": (context) => ImageDemo(),
+        "switch_checkbox": (context) => SwitchAndCheckBoxTestRoute(),
+        "text_form": (context) => TextFieldDemo(),
+        "focus": (context) => FocusTestRoute(),
+        "login": (context) => FormTestRoute(),
+        "progress": (context) => ProgressDemo(),
 
         //
-        "basic":(context)=>BasicDemo(),
-        "text":(context)=>TextDemo(),
-        "button":(context)=>ButtonDemo(),
-        "image":(context)=>ImageDemo(),
-        "switch_checkbox":(context)=>SwitchAndCheckBoxTestRoute(),
-        "text_form":(context)=>TextFieldDemo(),
-        "focus":(context)=>FocusTestRoute(),
-        "login":(context)=>FormTestRoute(),
-        "progress":(context)=>ProgressDemo(),
-
-        //
-        "layout":(context)=>LayoutDemo(),
-        "row_column":(context)=>RowColumnDemo(),
-        "flex":(context)=>FlexExpandedDemo(),
+        "layout": (context) => LayoutDemo(),
+        "row_column": (context) => RowColumnDemo(),
+        "flex": (context) => FlexExpandedDemo(),
       },
     );
   }
 }
-
-
