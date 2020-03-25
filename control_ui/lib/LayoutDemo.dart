@@ -19,6 +19,10 @@ class LayoutDemo extends StatelessWidget{
               onPressed: ()=>Navigator.pushNamed(context, "flex"),
               child: Text("弹性布局 示例"),
             ),
+            RaisedButton(
+              onPressed: ()=>Navigator.pushNamed(context, "flow"),
+              child: Text("流式布局 示例"),
+            ),
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.

@@ -11,6 +11,7 @@ import 'package:controlui/layout/RowColumnDemo.dart';
 import 'package:controlui/basic/SwitchAndCheckBoxTestRoute.dart';
 import 'package:controlui/basic/TextDemo.dart';
 import 'package:controlui/basic/TextFieldDemo.dart';
+import 'package:controlui/layout/WrapFlowDemo.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
         "layout": (context) => LayoutDemo(),
         "row_column": (context) => RowColumnDemo(),
         "flex": (context) => FlexExpandedDemo(),
+        "flow": (context)=>WrapFlowDemo(),
       },
     );
   }
