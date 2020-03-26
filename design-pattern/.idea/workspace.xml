@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d232a4a0-74a8-4ca3-b9b0-f7845f3c9464" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_composite/Test09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_composite/composite_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_composite/dto/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/abstracts/ShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/decorator_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/impls/decorators/RedShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/impls/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/impls/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/interfaces/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_08_filter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_10_decorator" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -61,40 +71,14 @@
       <recent name="_02_abstract_factory.impls.shape" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_10_decorator" />
+      <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_09_composite" />
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_08_filter" />
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_07_bridge" />
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_06_adapter" />
-      <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_05_prototype" />
-      <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_04_builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test08">
-    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_builder.Test04" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_prototype.Test05" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_05_prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test10">
     <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_06_adapter.Test06" />
       <module name="design_pattern" />
@@ -134,13 +118,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_09_composite.Test09" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_09_composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_decorator.Test10" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test10" />
+        <item itemvalue="Application.Test09" />
         <item itemvalue="Application.Test08" />
         <item itemvalue="Application.Test07" />
         <item itemvalue="Application.Test06" />
-        <item itemvalue="Application.Test04" />
-        <item itemvalue="Application.Test05" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +168,7 @@
       <workItem from="1584948440368" duration="4309000" />
       <workItem from="1585016304143" duration="7963000" />
       <workItem from="1585034215407" duration="1927000" />
+      <workItem from="1585189961625" duration="1848000" />
     </task>
     <task id="LOCAL-00001" summary="[java]  工厂模式">
       <created>1584935208034</created>
@@ -238,10 +249,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="[java]  过滤器模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1585035392441">
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1585191214284">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1585035392441" />
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1585191214284" />
     <state x="499" y="128" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585022298434">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -258,22 +269,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585035781387" />
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1585036143913">
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1585191795348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585036143913" />
-    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1585036143913">
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
+    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1585191795348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585036143913" />
-    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1585036143912">
+    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
+    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1585191795348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585036143912" />
-    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1585036143913">
+    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
+    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1585191795348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585036143913" />
+    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1584933435320">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
