@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d232a4a0-74a8-4ca3-b9b0-f7845f3c9464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_composite/Test09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_composite/composite_pattern_uml_diagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_09_composite/dto/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/Test10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/abstracts/ShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/decorator_pattern_uml_diagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/impls/decorators/RedShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/impls/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/impls/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_10_decorator/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_11_facade/facade_pattern_uml_diagram.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_10_decorator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_11_facade" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -71,11 +62,11 @@
       <recent name="_02_abstract_factory.impls.shape" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_11_facade" />
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_10_decorator" />
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_09_composite" />
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_08_filter" />
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_07_bridge" />
-      <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_06_adapter" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Test10">
@@ -168,7 +159,7 @@
       <workItem from="1584948440368" duration="4309000" />
       <workItem from="1585016304143" duration="7963000" />
       <workItem from="1585034215407" duration="1927000" />
-      <workItem from="1585189961625" duration="1848000" />
+      <workItem from="1585189961625" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="[java]  工厂模式">
       <created>1584935208034</created>
@@ -219,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585035782154</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[java]  组合模式  装饰器模式">
+      <created>1585191902746</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585191902746</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +244,8 @@
     <MESSAGE value="[java]  适配器模式" />
     <MESSAGE value="[java]  桥接模式" />
     <MESSAGE value="[java]  过滤器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="[java]  过滤器模式" />
+    <MESSAGE value="[java]  组合模式  装饰器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="[java]  组合模式  装饰器模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1585191214284">
@@ -257,6 +256,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="499" y="128" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.689@0.0.1280.689" timestamp="1585022298434" />
+    <state x="321" y="74" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585193134535">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="321" y="74" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1585193134535" />
     <state x="430" y="234" width="676" height="226" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585030879060">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -265,26 +268,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="430" y="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.689@0.0.1280.689" timestamp="1585022312021" />
-    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2" timestamp="1585035781387">
+    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2" timestamp="1585191901956">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585035781387" />
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1585191795348">
+    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585191901956" />
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1585201254677">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
-    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1585191795348">
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585201254677" />
+    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1585201254677">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
-    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1585191795348">
+    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585201254677" />
+    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1585201254677">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
-    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1585191795348">
+    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585201254677" />
+    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1585201254677">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585191795348" />
+    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585201254677" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1584933435320">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
