@@ -6,6 +6,7 @@ import 'package:controlui/basic/ImageDemo.dart';
 import 'package:controlui/LayoutDemo.dart';
 import 'package:controlui/MyHomePage.dart';
 import 'package:controlui/basic/ProgressDemo.dart';
+import 'package:controlui/layout/AlignDemo.dart';
 import 'package:controlui/layout/FlexExpandedDemo.dart';
 import 'package:controlui/layout/RowColumnDemo.dart';
 import 'package:controlui/basic/SwitchAndCheckBoxTestRoute.dart';
@@ -44,6 +45,7 @@ class MyApp extends StatelessWidget {
         "flex": (context) => FlexExpandedDemo(),
         "flow": (context)=>WrapFlowDemo(),
         "stack":(context)=>StackPositionedDemo(),
+        "align":(context)=>AlignDemo(),
       },
     );
   }
