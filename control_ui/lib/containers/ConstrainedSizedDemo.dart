@@ -19,6 +19,14 @@ class ConstrainedSizedDemo extends StatelessWidget{
               color: Colors.red,
             ),
           ),
+          SizedBox(
+            width: 80,
+            height: 80,
+            child: Container(
+              height: 5,
+              color: Colors.blue,
+            ),
+          ),
         ],
       ),
     );
