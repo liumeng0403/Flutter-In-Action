@@ -1,2 +1,2 @@
 # FlutterInAction
-my demo.
+My cross-platform native APP demo.
