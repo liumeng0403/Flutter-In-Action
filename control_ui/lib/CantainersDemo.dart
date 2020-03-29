@@ -13,6 +13,10 @@ class CantainersDemo extends StatelessWidget{
             onPressed: ()=>Navigator.pushNamed(context, "padding"),
             child: Text("填充 示例"),
           ),
+          RaisedButton(
+            onPressed: ()=>Navigator.pushNamed(context, "sized"),
+            child: Text("尺寸限制类容器 示例"),
+          ),
         ],
       ),
     );

@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             RaisedButton(
               onPressed: ()=>Navigator.pushNamed(context, "box"),
-              child: Text("填充 示例"),
+              child: Text("容器 示例"),
             ),
           ],
         ),
