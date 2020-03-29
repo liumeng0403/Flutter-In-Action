@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jdbasic/res/ListData.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,51 +24,20 @@ class MyApp extends StatelessWidget {
 }
 
 class HomeContent extends StatelessWidget {
+  
+  Widget _getDataList(BuildContext contex,int index){
+    return ListTile(
+      leading: Image.network(listData[index]["imageUrl"]),
+      title: Text(listData[index]["title"]),
+      subtitle: Text(listData[index]["author"]),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 180,
-      child: ListView(
-        scrollDirection: Axis.horizontal,
-        children: <Widget>[
-          Container(
-            width: 160,
-            height: 120,
-            color: Colors.red,
-          ),
-          Container(
-            width: 160,
-            height: 120,
-            color: Colors.blue,
-            child: ListView(
-              children: <Widget>[
-                Image.network("https://www.itying.com/images/flutter/1.png"),
-                Text("标题 xxxx"),
-              ],
-            ),
-          ),
-          Container(
-            width: 160,
-            height: 120,
-            color: Colors.yellow,
-          ),
-          Container(
-            width: 160,
-            height: 120,
-            color: Colors.green,
-          ),
-          Container(
-            width: 160,
-            height: 120,
-            color: Colors.black,
-          ),
-          Container(
-            width: 160,
-            height: 120,
-            color: Colors.orange,
-          ),
-        ],
-      ),
+    return ListView.builder(
+      itemCount: listData.length,
+      itemBuilder: this._getDataList,
     );
   }
 }
