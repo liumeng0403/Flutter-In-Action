@@ -24,43 +24,62 @@ class MyApp extends StatelessWidget {
 }
 
 class HomeContent extends StatelessWidget {
-  Widget _getDataList(context, index) {
-    return Container(
-      decoration: BoxDecoration(
-        border: Border.all(
-          color: Color.fromRGBO(233, 233, 233, 0.9),
-        ),
-      ),
-      child: Column(
-        children: <Widget>[
-          Image.network(listData[index]["imageUrl"]),
-          SizedBox(
-            height: 10,
-          ),
-          Text(
-            listData[index]["title"],
-            textAlign: TextAlign.center,
-            overflow: TextOverflow.ellipsis,
-            style: TextStyle(
-              fontSize: 20,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
-    return GridView.builder(
-      padding: EdgeInsets.all(10),
-      itemCount: listData.length,
-      itemBuilder: this._getDataList,
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        crossAxisSpacing: 10,
-        mainAxisSpacing: 10,
-      ),
+    return Column(
+      children: <Widget>[
+        Container(
+          height: 200,
+          color: Colors.black,
+        ),
+        SizedBox(
+          height: 10,
+        ),
+        Row(
+          children: <Widget>[
+            Expanded(
+              flex: 2,
+              child: Container(
+                height: 200,
+                child: Image.network(
+                  "https://www.itying.com/images/flutter/1.png",
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            SizedBox(
+              width: 10,
+            ),
+            Expanded(
+              flex: 1,
+              child: Container(
+                height: 200,
+                child: ListView(
+                  children: <Widget>[
+                    Container(
+                      height: 95,
+                      child: Image.network(
+                        "https://www.itying.com/images/flutter/1.png",
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Container(
+                      height: 95,
+                      child: Image.network(
+                        "https://www.itying.com/images/flutter/1.png",
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ],
     );
   }
 }
