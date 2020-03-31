@@ -8,6 +8,7 @@ import 'package:controlui/LayoutDemo.dart';
 import 'package:controlui/MyHomePage.dart';
 import 'package:controlui/basic/ProgressDemo.dart';
 import 'package:controlui/containers/ConstrainedSizedDemo.dart';
+import 'package:controlui/containers/DecoratedBoxDemo.dart';
 import 'package:controlui/containers/PaddingDemo.dart';
 import 'package:controlui/layout/AlignDemo.dart';
 import 'package:controlui/layout/FlexExpandedDemo.dart';
@@ -54,6 +55,7 @@ class MyApp extends StatelessWidget {
         "box":(context)=>CantainersDemo(),
         "padding":(context)=>PaddingDemo(),
         "sized":(context)=>ConstrainedSizedDemo(),
+        "decorated":(context)=>DecoratedBoxDemo(),
       },
     );
   }
