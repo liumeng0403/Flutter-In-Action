@@ -26,60 +26,29 @@ class MyApp extends StatelessWidget {
 class HomeContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        Container(
-          height: 200,
-          color: Colors.black,
-        ),
-        SizedBox(
-          height: 10,
-        ),
-        Row(
+    return Center(
+      child: Container(
+        height: 400,
+        width: 300,
+        color: Colors.red,
+        child: Stack(
           children: <Widget>[
-            Expanded(
-              flex: 2,
-              child: Container(
-                height: 200,
-                child: Image.network(
-                  "https://www.itying.com/images/flutter/1.png",
-                  fit: BoxFit.cover,
-                ),
-              ),
+            Positioned(
+              left: 10,
+              child: Icon(Icons.home,size: 40,color: Colors.white,),
             ),
-            SizedBox(
-              width: 10,
+            Positioned(
+              bottom: 0,
+              left: 100,
+              child: Icon(Icons.search,size: 30,color: Colors.white,),
             ),
-            Expanded(
-              flex: 1,
-              child: Container(
-                height: 200,
-                child: ListView(
-                  children: <Widget>[
-                    Container(
-                      height: 95,
-                      child: Image.network(
-                        "https://www.itying.com/images/flutter/1.png",
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    Container(
-                      height: 95,
-                      child: Image.network(
-                        "https://www.itying.com/images/flutter/1.png",
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+            Positioned(
+              right: 0,
+              child: Icon(Icons.send,size: 60,color: Colors.white,),
             ),
           ],
         ),
-      ],
+      ),
     );
   }
 }
