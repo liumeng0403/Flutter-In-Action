@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d232a4a0-74a8-4ca3-b9b0-f7845f3c9464" name="Default Changelist" comment="[java]  组合模式  装饰器模式">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_flyweight/FlyweightPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_flyweight/factorys/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_flyweight/flyweight_pattern_uml_diagram-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_flyweight/impls/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_12_flyweight/interfaces/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d232a4a0-74a8-4ca3-b9b0-f7845f3c9464" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/_11_facade/impls/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_11_facade/impls/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_11_facade/impls/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_11_facade/interfaces/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/design_pattern.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,13 +92,13 @@
       <recent name="D:\Work\FlutterProject\design-pattern\src\main\java\_08_filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyweightPatternDemo">
-    <configuration name="FlyweightPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12_flyweight.FlyweightPatternDemo" />
+  <component name="RunManager" selected="Application.FacadePatternDemo">
+    <configuration name="FacadePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_facade.FacadePatternDemo" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_12_flyweight.*" />
+          <option name="PATTERN" value="_11_facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_bridge.Test07" />
-      <module name="design_pattern" />
+    <configuration name="FlyweightPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12_flyweight.FlyweightPatternDemo" />
+      <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_07_bridge.*" />
+          <option name="PATTERN" value="_12_flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadePatternDemo" />
         <item itemvalue="Application.FlyweightPatternDemo" />
         <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test09" />
         <item itemvalue="Application.Test08" />
-        <item itemvalue="Application.Test07" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +183,7 @@
       <workItem from="1585016304143" duration="7963000" />
       <workItem from="1585034215407" duration="1927000" />
       <workItem from="1585189961625" duration="4175000" />
-      <workItem from="1589184896545" duration="1588000" />
+      <workItem from="1589184896545" duration="3551000" />
     </task>
     <task id="LOCAL-00001" summary="[java]  工厂模式">
       <created>1584935208034</created>
@@ -228,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585191902746</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[java]  享元模式">
+      <created>1589187789319</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589187789319</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +259,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="java" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -255,7 +287,8 @@
     <MESSAGE value="[java]  桥接模式" />
     <MESSAGE value="[java]  过滤器模式" />
     <MESSAGE value="[java]  组合模式  装饰器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="[java]  组合模式  装饰器模式" />
+    <MESSAGE value="[java]  享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="[java]  享元模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1585191214284">
@@ -278,10 +311,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="430" y="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.689@0.0.1280.689" timestamp="1585022312021" />
-    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2" timestamp="1589187730548">
+    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2" timestamp="1589187788655">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1589187730548" />
+    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1589187788655" />
     <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1589187624170">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
