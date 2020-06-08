@@ -20,59 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d232a4a0-74a8-4ca3-b9b0-f7845f3c9464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_proxy/ProxyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_proxy/impls/RealImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_proxy/interfaces/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_proxy/proxy_pattern_uml_diagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_13_proxy/proxys/ProxyImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_01_factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_01_factory/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_01_factory/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_01_factory/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_01_factory/factory_pattern_uml_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_01_factory/factory_pattern_uml_diagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_01_factory/impls/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_01_factory/impls/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_01_factory/impls/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_01_factory/impls/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_01_factory/impls/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_01_factory/impls/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_01_factory/interfaces/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_01_factory/interfaces/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/FactoryProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/Test02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/abstractfactory_pattern_uml_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/abstractfactory_pattern_uml_diagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/abstracts/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/abstracts/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/factory/ColorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/factory/ColorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/factory/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/impls/color/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/impls/color/Blue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/impls/color/Green.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/impls/color/Green.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/impls/color/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/impls/color/Red.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/impls/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/impls/shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/impls/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/impls/shape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/impls/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/impls/shape/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/interfaces/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/interfaces/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02_abstract_factory/interfaces/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_02_abstract_factory/interfaces/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_03_singleton/SingleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_03_singleton/SingleObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_03_singleton/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_03_singleton/Test03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_03_singleton/singleton_pattern_uml_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_03_singleton/singleton_pattern_uml_diagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/MealBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/MealBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/Test04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/abstracts/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/abstracts/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/abstracts/ColdDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/abstracts/ColdDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/builder_pattern_uml_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/builder_pattern_uml_diagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/impls/item/bugger/ChickenBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/impls/item/bugger/ChickenBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/impls/item/bugger/VegBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/impls/item/bugger/VegBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/impls/item/drink/Coke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/impls/item/drink/Coke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/impls/item/drink/Pepsi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/impls/item/drink/Pepsi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/impls/pack/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/impls/pack/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/impls/pack/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/impls/pack/Wrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/interfaces/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/interfaces/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/interfaces/Packing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/interfaces/Packing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_04_builder/vo/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_04_builder/vo/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_prototype/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_05_prototype/ShapeCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_prototype/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_05_prototype/Test05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_prototype/abstracts/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_05_prototype/abstracts/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_prototype/impls/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_05_prototype/impls/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_prototype/impls/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_05_prototype/impls/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_prototype/impls/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_05_prototype/impls/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_05_prototype/prototype_pattern_uml_diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation_mode/_05_prototype/prototype_pattern_uml_diagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_02_abstract_factory/FactoryProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_02_abstract_factory/FactoryProducer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +54,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_13_proxy" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -221,7 +170,7 @@
       <workItem from="1589184896545" duration="4687000" />
       <workItem from="1589249050412" duration="1994000" />
       <workItem from="1591237612533" duration="5604000" />
-      <workItem from="1591577891507" duration="2329000" />
+      <workItem from="1591577891507" duration="3118000" />
     </task>
     <task id="LOCAL-00001" summary="[java]  工厂模式">
       <created>1584935208034</created>
@@ -293,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589190641453</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[java]  代理模式">
+      <created>1591580803756</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591580803756</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +290,8 @@
     <MESSAGE value="[java]  组合模式  装饰器模式" />
     <MESSAGE value="[java]  享元模式" />
     <MESSAGE value="[java]  外观模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="[java]  外观模式" />
+    <MESSAGE value="[java]  代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="[java]  代理模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1591579983517">
@@ -357,10 +314,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="430" y="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.689@0.0.1280.689" timestamp="1591580665971" />
-    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2" timestamp="1589190640863">
+    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2" timestamp="1591580802684">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1589190640863" />
+    <state x="58" y="0" width="1179" height="689" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1591580802684" />
     <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1591580330760">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
